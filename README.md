@@ -1,4 +1,4 @@
-# Main idea
+# The Main idea
 
 To demonstrate jetbrains' stack of project mangement software for my calssmates I need to create not only working environment for hub, youtrack, upsource e.t.c, I need to give them abiblity to build this environment on their own laptops. 
 
