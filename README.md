@@ -34,3 +34,7 @@ Secondly we need to increase TTL time for item in the cache.
 To obtain images in the nexus cache we need to run our jetbrains environment for the first time.
 After that we can share our cahce with the other team
 
+## Linux configurtion
+
+In my LinuxMint installation on laptop with mate desktop environment presents ability to configure hotspot in wifi network management, so it created Hotspot, DHCP and routings without extra efforts.
+
