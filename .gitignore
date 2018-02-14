@@ -1,0 +1,5 @@
+dist/*.exe
+!docker/env/nexus-data/
+docker/env/nexus-data/*
+!docker/env/nexus-data/.gitkeep
+.DS_Store

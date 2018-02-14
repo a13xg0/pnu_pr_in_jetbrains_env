@@ -1,0 +1,19 @@
+version: "3"
+services:
+
+#########################
+# SERVERS               #
+#########################
+  jb-support-nginx:
+    image: nginx
+    volumes:
+      - ./mysite.template:/etc/nginx/conf.d/mysite.template
+  jb-support-nexus:
+    image: sonatype/nexus3
+    volumes:
+      - ./nexus-data:/nexus-data
+    ports:
+      - 8081:8081
+      - 8051:8051
+      - 8051:8052
+

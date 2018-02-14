@@ -1,0 +1,21 @@
+version: "3"
+services:
+
+#########################
+# SERVERS               #
+#########################
+  jb-demo-hub:
+    image: localhost:8051/esycat/jetbrains-hub
+    ports: 
+      - 8082:8080
+  jb-demo-youtrack:
+    image: localhost:8051/esycat/youtrack
+    ports: 
+      - 8083:8080
+  jb-demo-upsource:
+    image: localhost:8051/esycat/upsource
+    ports: 
+      - 8084:8080
+
+
+ 
