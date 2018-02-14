@@ -8,3 +8,4 @@ In this case I need:
 * configuration for docker to up environment
 * configuration for docker to use my repository
 * setup my linux laptop as a wifi AP
+* nginx with file browsing. To download base config and docker
